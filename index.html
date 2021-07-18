@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Eforlad travel</title>
+      <title>IQ200 voyager</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -61,7 +61,7 @@
                   <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
                      <div class="full">
                         <div class="center-desk">
-                           <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="#"></a> </div>
+                           <!-- <div class="logo"> <a href="index.html"><img src="images/logo.png" alt="#"></a> </div> -->
                         </div>
                      </div>
                   </div>
@@ -91,19 +91,20 @@
             <img src="images/banner.jpg" alt="#"/>
             <div class="container">
                <div class="text-bg">
-                  <h1>America<br><strong class="white">Amazing Tour</strong></h1>
+                  <h1>IQ200<br><strong class="white">voyager</strong></h1>
                   <div class="button_section"> <a class="main_bt" href="#">Read More</a>  </div>
                   <div class="container">
-                     <form class="main-form">
+                     <!-- <form class="main-form"> -->
+                        <div class="main-form">
                         <h3>Find Your Tour</h3>
                         <div class="row">
                            <div class="col-md-9">
                               <div class="row">
-                                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
-                                    <label >Keywords</label>
-                                    <input class="form-control" placeholder="" type="text" name="">
+                                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 ">
+                                    <label >Destination</label>
+                                    <input class="form-control input_text" placeholder="Enter your destination" type="text" name="">
                                  </div>
-                                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                 <!-- <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
                                     <label >Category</label>
                                     <select class="form-control" name="Any">
                                        <option>Any</option>
@@ -111,30 +112,34 @@
                                        <option>Option 2</option>
                                        <option>Option 3</option>
                                     </select>
-                                 </div>
-                                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                 </div> -->
+                                 <!-- <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
                                     <label >Min Price</label>
                                     <input class="form-control" placeholder="00.0" type="text" name="00.0">
-                                 </div>
-                                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                 </div> -->
+                                 <!-- <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
                                     <label >Duration</label>
                                     <input class="form-control" placeholder="Any" type="text" name="Any">
-                                 </div>
-                                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                 </div> -->
+                                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 ">
                                     <label >Date</label>
-                                    <input class="form-control" placeholder="Any" type="date" name="Any">
+                                    <input class="form-control date1" placeholder="Any" type="date" name="Any">
                                  </div>
-                                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                                 <!-- <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
                                     <label >Max Price</label>
                                     <input class="form-control" placeholder="00.0" type="text" name="00.0">
-                                 </div>
+                                 </div> -->
                               </div>
                            </div>
                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
-                              <a href="#">search</a>
+                              <!-- <a href="" ><button class="submit">search</button>  </a> -->
+
+                              <input type="submit" value="Submit" class="submi spa">
                            </div>
                         </div>
-                     </form>
+                        </div>
+                        
+                     <!-- </form> -->
                   </div>
                </div>
             </div>
@@ -152,6 +157,116 @@
                </div>
             </div>
          </div>
+         <!-- <div class="input">
+            <div class="flexy">
+              <input type="text" placeholder="Enter Your Destination (City)" class="input_text spa">
+              <input type="date" placeholder="Enter the date (YYYY-MM-DD)" class="date1 sam spa">
+              <input type="date" name = "date2" placeholder="Enter the date (YYYY-MM-DD)" class="date2 sam spa">
+              <input type="submit" value="Submit" class="submit spa">
+            </div>
+          </div>
+        </div> -->
+      
+        <div class="jak">
+          <div class="containe">
+            <div class="card">
+              <h1 class="head" id="head"></h1>
+              <p class="temp"></p>
+              <p class="conditions"></p>
+              <p class="desc"></p>
+            </div>
+          </div>
+      
+          <div class="containe">
+            <div class="card">
+              <h1 class="head1" id="name"></h1>
+              <p class="temp1"></p>
+              <p class="conditions1"></p>
+              <p class="desc1"></p>
+            </div>
+          </div>
+      
+          <div class="containe blocky">
+            <div class="card">
+              <h1 class="head2" id="name"></h1>
+              <p class="temp2"></p>
+              <p class="conditions2"></p>
+              <p class="desc2"></p>
+            </div>
+          </div>
+      
+          <div class="containe blocky">
+            <div class="card">
+              <h1 class="head3" id="name"></h1>
+              <p class="temp3"></p>
+              <p class="conditions3"></p>
+              <p class="desc3"></p>
+            </div>
+          </div>
+          <div class="containe blocky">
+            <div class="card">
+              <h1 class="head4" id="name"></h1>
+              <p class="temp4"></p>
+              <p class="conditions4"></p>
+              <p class="desc4"></p>
+            </div>
+          </div>
+          <div class="containe blocky">
+            <div class="card">
+              <h1 class="head5" id="name"></h1>
+              <p class="temp5"></p>
+              <p class="conditions5"></p>
+              <p class="desc5"></p>
+            </div>
+          </div>
+          <div class="containe blocky">
+            <div class="card">
+              <h1 class="head6" id="name"></h1>
+              <p class="temp6"></p>
+              <p class="conditions6"></p>
+              <p class="desc6"></p>
+            </div>
+          </div>
+          <div class="containe blocky">
+            <div class="card">
+              <h1 class="head7" id="name"></h1>
+              <p class="temp7"></p>
+              <p class="conditions7"></p>
+              <p class="desc7"></p>
+            </div>
+          </div>
+          <div class="containe blocky">
+            <div class="card">
+              <h1 class="head8" id="name"></h1>
+              <p class="temp8"></p>
+              <p class="conditions8"></p>
+              <p class="desc8"></p>
+            </div>
+          </div>
+          <div class="containe blocky">
+            <div class="card">
+              <h1 class="head9" id="name"></h1>
+              <p class="temp9"></p>
+              <p class="conditions9"></p>
+              <p class="desc9"></p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="superMan">
+           <div class="super_heading"></div>
+        <li><div class="tempInfo infi"></div></li> 
+         <li><div class="info infi"></div></li>
+        <li><div class="info2 infi"></div></li> 
+       </div>
+
+
+
+
+
+
          <div class="bg">
             <div class="container">
                <div class="row">
@@ -437,6 +552,7 @@
            })
          })
       </script>
+      <script src="js/api.js"></script>
      
    </body>
 </html>
