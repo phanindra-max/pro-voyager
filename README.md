@@ -21,4 +21,4 @@ This week we learned a lot about front-end development(UI/UX). We learned how im
 ## What's next for IQ 200 - Voyager
 The next step for _IQ 200: Voyager_ is very clear: to modify the aggregated suggestions(probably replace it with some ML script, we don't know yet. Since the present aggregation is implemented using ``` if-else ``` conditions. We're planning to make this static application a more robust and dynamic application.
 
-##“The world is a book and those who do not travel read only one page.” ~ Saint Augustine
+## “The world is a book and those who do not travel read only one page.” ~ Saint Augustine
