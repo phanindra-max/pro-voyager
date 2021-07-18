@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 /*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
 
 
@@ -2272,3 +2273,76 @@ ul.location_icon span {
 }
 
 /** slider arrow **/
+
+
+
+.jak{
+     display: flex;
+     /* justify-content: center; */
+     align-items: center;
+     flex-direction: row;
+     /* width:14rem; */
+     /* overflow: scroll; */
+     /* flex-wrap: wrap; */
+     /* position: absolute; */
+     overflow:auto;
+   }
+
+
+   .containe{
+     width: 24rem;
+     margin: 0px 2.2px;
+   }
+
+   
+
+   .card{
+     display: contents;
+    font-size: xxx-large;
+    /* width: 98%; */
+    width: 21rem;
+    background: transparent;
+    height: 40vh;
+    margin: 50px auto;
+    border-radius: 9px;
+    color: rgb(145 144 144);
+    border: 3px solid rgb(7 118 147);
+    overflow: auto;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .superMan{
+     background-color: #1f1420;
+     margin: 2rem 0px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: baseline;
+     font-family: 'Roboto', sans-serif;
+     /* margin-left: 40px; */
+     /* font-weight: bolder; */
+     font-size: larger;
+ 
+   }
+   .super_heading{
+        font-size: x-large;
+        font-weight: bolder;
+     color: #0c7b9a;
+   }
+   .spa{
+     padding: 6px 24px;
+     border: 3px solid #ee580f;
+     color: #ee580f;
+     background-color: transparent;
+     border-radius: 39px;
+     cursor: pointer;
+   }
+   .spa:hover{
+        background-color: #ee580f;
+        color:white;
+   }
+   
